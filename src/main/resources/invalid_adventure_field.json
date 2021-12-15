@@ -1,0 +1,176 @@
+{
+  "rooms": {
+    "1": {
+      "name": "FrontYard",
+      "description": "You are in the front yard. The porch is in front of you.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 2
+        }
+      ],
+      "items": []
+    },
+    "2": {
+      "name": "Porch",
+      "description": "You are in the porch. The living room is in front of you and the front yard is to your back.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 3
+        },
+        {
+          "directionName": "Back",
+          "roomId": 1
+        }
+      ],
+      "items": []
+    },
+    "3": {
+      "name": "LivingRoom",
+      "description": "You are in the living room. The kitchen is to your right and the porch is to your back.",
+      "directions": [
+        {
+          "directionName": "Right",
+          "roomId": 4
+        },
+        {
+          "directionName": "Back",
+          "roomId": 2
+        }
+      ],
+      "items": []
+    },
+    "4": {
+      "name": "Kitchen",
+      "description": "You are in the kitchen. The dining room is in front of you, the living room is to your left, and the multipurpose room is above you.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 5
+        },
+        {
+          "directionName": "Left",
+          "roomId": 3
+        },
+        {
+          "directionName": "Above",
+          "roomId": 8
+        }
+      ],
+      "items": []
+    },
+    "5": {
+      "name": "DiningRoom",
+      "description": "You are in the dining room. The kitchen is to your back, the backyard is in front of you and the guest room is to your left.",
+      "directions": [
+        {
+          "directionName": "Back",
+          "roomId": 4
+        },
+        {
+          "directionName": "Front",
+          "roomId": 7
+        },
+        {
+          "directionName": "Left",
+          "roomId": 6
+        }
+      ],
+      "items": []
+    },
+    "6": {
+      "name": "GuestRoom",
+      "description": "You are in the guest room. The dining room is to your right.",
+      "directions": [
+        {
+          "directionName": "Right",
+          "roomId": 5
+        }
+      ],
+      "items": []
+    },
+    "7": {
+      "name": "BackYard",
+      "description": "You are in the backyard. The dining room is to your back.",
+      "directions": [
+        {
+          "directionName": "Back",
+          "roomId": 5
+        },
+        {
+          "directionName": "Above",
+          "roomId": 12
+        }
+      ],
+      "items": []
+    },
+    "8": {
+      "name": "MultipurposeRoom",
+      "description": "You are in the multipurpose room. The kitchen is below you, the children room is in front of you, the master room is to your right, and the balcony is to your back.",
+      "directions": [
+        {
+          "directionName": "Below",
+          "roomId": 4
+        },
+        {
+          "directionName": "Front",
+          "roomId": 10
+        },
+        {
+          "directionName": "Right",
+          "roomId": 11
+        },
+        {
+          "directionName": "Back",
+          "roomId": 9
+        }
+      ],
+      "items": []
+    },
+    "9": {
+      "name": "Balcony",
+      "description": "You are in the balcony. You can see the multipurpose room in front of you.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 8
+        }
+      ],
+      "items": []
+    },
+    "10": {
+      "name": "ChildrenRoom",
+      "description": "You are in the children room. The multipurpose room is to your back.",
+      "directions": [
+        {
+          "directionName": "Back",
+          "roomId": 8
+        }
+      ],
+      "items": []
+    },
+    "11": {
+      "name": "MasterRoom",
+      "description": "You are in the master room. The multipurpose room is to your left.",
+      "directions": [
+        {
+          "directionName": "Left",
+          "roomId": 8
+        }
+      ],
+      "items": []
+    },
+    "12": {
+      "name": "Roof",
+      "description": "You've made to the roof. Congratulations!",
+      "directions": [
+        {
+          "directionName": "Below",
+          "roomId": 13
+        }
+      ],
+      "items": []
+    }
+  }
+}

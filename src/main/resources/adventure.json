@@ -1,0 +1,204 @@
+{
+  "startingRoomId": 1,
+  "endingRoomId": 12,
+  "maxSteps": 20,
+  "rooms": {
+    "-1": {
+      "name": "LostRoom",
+      "description": "Oh...You weren't able to bring back the ball in time...",
+      "directions": [],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/SuvBXgKw2MkMXRpg7"
+    },
+    "0": {
+      "name": "WinRoom",
+      "description": "Yay! You managed to bring back the ball in time! ",
+      "directions": [],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/SuvBXgKw2MkMXRpg7"
+    },
+    "1": {
+      "name": "FrontYard",
+      "description": "You are in the front yard. The porch is in front of you.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 2
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/SuvBXgKw2MkMXRpg7"
+    },
+    "2": {
+      "name": "Porch",
+      "description": "You are in the porch. The living room is in front of you and the front yard is to your back.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 3
+        },
+        {
+          "directionName": "Back",
+          "roomId": 1
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/GhmkHzPCi5Ru2Zwi7"
+    },
+    "3": {
+      "name": "LivingRoom",
+      "description": "You are in the living room. The porch is to your back and the kitchen is to your right.",
+      "directions": [
+        {
+          "directionName": "Back",
+          "roomId": 2
+        },
+        {
+          "directionName": "Right",
+          "roomId": 4
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/9ZWoHmRKE9y2wQJRA"
+    },
+    "4": {
+      "name": "Kitchen",
+      "description": "You are in the kitchen. The dining room is in front of you, the living room is to your left, and the multipurpose room is above you.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 5
+        },
+        {
+          "directionName": "Left",
+          "roomId": 3
+        },
+        {
+          "directionName": "Above",
+          "roomId": 8
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/tGX1kYkMyuiY9FPB9"
+    },
+    "5": {
+      "name": "DiningRoom",
+      "description": "You are in the dining room. The backyard is in front of you, the kitchen is to your back and the guest room is to your left.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 7
+        },
+        {
+          "directionName": "Back",
+          "roomId": 4
+        },
+        {
+          "directionName": "Left",
+          "roomId": 6
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/vj44wMDazkKidgB28"
+    },
+    "6": {
+      "name": "GuestRoom",
+      "description": "You are in the guest room. The dining room is to your right.",
+      "directions": [
+        {
+          "directionName": "Right",
+          "roomId": 5
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/8j1vRwtRdGjjhLE36"
+    },
+    "7": {
+      "name": "BackYard",
+      "description": "You are in the backyard. The dining room is to your back and the roof is above you. You need a ladder to go to the roof.",
+      "directions": [
+        {
+          "directionName": "Back",
+          "roomId": 5
+        },
+        {
+          "directionName": "Above",
+          "roomId": 12
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/4HDcvpFKMLCs1rcN9"
+    },
+    "8": {
+      "name": "MultipurposeRoom",
+      "description": "You are in the multipurpose room. The children is in front of you, the balcony is to your back, the master room is to your right, and the kitchen is below you.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 10
+        },
+        {
+          "directionName": "Back",
+          "roomId": 9
+        },
+        {
+          "directionName": "Right",
+          "roomId": 11
+        },
+        {
+          "directionName": "Below",
+          "roomId": 4
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/EUrHoWXbFER7HWUq8"
+    },
+    "9": {
+      "name": "Balcony",
+      "description": "You are in the balcony. You can see the multipurpose room in front of you.",
+      "directions": [
+        {
+          "directionName": "Front",
+          "roomId": 8
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/2jp5iR3whwQktrXLA"
+    },
+    "10": {
+      "name": "ChildrenRoom",
+      "description": "You are in the children room. The multipurpose room is to your back.",
+      "directions": [
+        {
+          "directionName": "Back",
+          "roomId": 8
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/oN7FAQuaDWgCvdS89"
+    },
+    "11": {
+      "name": "MasterRoom",
+      "description": "You are in the master room. The multipurpose room is to your left.",
+      "directions": [
+        {
+          "directionName": "Left",
+          "roomId": 8
+        }
+      ],
+      "items": [],
+      "imageUrl": "https://images.app.goo.gl/chyuBFMsJT6E6SXn9"
+    },
+    "12": {
+      "name": "Roof",
+      "description": "You've made it to the roof! Take the ball to win the game!",
+      "directions": [],
+      "items": [
+        {
+          "itemName": "Ball"
+        }
+      ],
+      "imageUrl": "https://images.app.goo.gl/789dtC8kn9g7DMPm7"
+    }
+  }
+}
